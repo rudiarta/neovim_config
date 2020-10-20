@@ -3,10 +3,16 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 
 " Use alt + hjkl to resize windows
+" For general keayboard
 nnoremap <M-j>    :resize -2<CR>
 nnoremap <M-k>    :resize +2<CR>
 nnoremap <M-h>    :vertical resize -2<CR>
 nnoremap <M-l>    :vertical resize +2<CR>
+" for mac 
+nnoremap ∆    :resize -2<CR>
+nnoremap ˚    :resize +2<CR>
+nnoremap ˙    :vertical resize -2<CR>
+nnoremap ¬    :vertical resize +2<CR>
 
 " I hate escape more than anything else
 inoremap jk <Esc>
