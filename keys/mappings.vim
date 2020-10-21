@@ -30,6 +30,9 @@ nnoremap <S-TAB> :bprevious<CR>
 " Alternate way to save
 nnoremap <C-s> :w<CR>
 
+" NERDTree toggle
+nnoremap <C-e> :NERDTreeToggle<CR>
+
 " Alternate way to quit
 " nnoremap <C-Q> :wq!<CR>
 nnoremap <C-Q> :bwipeout<CR>
