@@ -1,7 +1,3 @@
-" Better nav for omnicomplete
-" inoremap <expr> <c-j> ("\<C-n>")
-" inoremap <expr> <c-k> ("\<C-p>")
-
 " Use alt + hjkl to resize windows
 " For general keayboard
 nnoremap <M-j>    :resize -2<CR>
