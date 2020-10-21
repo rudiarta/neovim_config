@@ -34,3 +34,12 @@ autocmd vimenter * colorscheme gruvbox
 " NERDTree auto open when in directory
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" adding the flags to NERDTree
+let g:webdevicons_enable_nerdtree = 1
+
+" adding the column to vimfiler
+let g:webdevicons_enable_vimfiler = 1
+
+" adding to vim-airline's tabline
+let g:webdevicons_enable_airline_tabline = 1
