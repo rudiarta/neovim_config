@@ -43,3 +43,8 @@ let g:webdevicons_enable_vimfiler = 1
 
 " adding to vim-airline's tabline
 let g:webdevicons_enable_airline_tabline = 1
+
+let g:rainbow#max_level = 16
+let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
+
+autocmd FileType * RainbowParentheses
