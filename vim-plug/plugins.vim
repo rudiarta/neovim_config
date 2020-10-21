@@ -5,4 +5,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 	Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'Xuyuanp/nerdtree-git-plugin'
+  Plug 'ryanoasis/vim-devicons'
 call plug#end()
