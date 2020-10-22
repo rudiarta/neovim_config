@@ -29,7 +29,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " gruvbox theme
-autocmd vimenter * colorscheme gruvbox
+autocmd vimenter * colorscheme industry
 
 " NERDTree auto open when in directory
 autocmd StdinReadPre * let s:std_in=1
@@ -44,5 +44,3 @@ let g:webdevicons_enable_vimfiler = 1
 " adding to vim-airline's tabline
 let g:webdevicons_enable_airline_tabline = 1
 
-let g:rainbow#max_level = 16
-let g:rainbow#pairs = [['(', ')'], ['[', ']'], ['{', '}']]
