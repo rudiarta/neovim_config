@@ -37,6 +37,9 @@ inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 " Revert Git
 nnoremap <C-y> :CocCommand git.chunkUndo<CR>
 
+" Git Blame
+noremap <Leader>G :Gblame<CR>
+
 " Better window navigation
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
