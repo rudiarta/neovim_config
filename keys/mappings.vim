@@ -14,10 +14,6 @@ nnoremap ¬    :vertical resize +2<CR>
 inoremap jk <Esc>
 inoremap kj <Esc>
 
-" Easy CAPS
-inoremap <c-u> <ESC>viwUi
-nnoremap <c-u> viwU<Esc>
-
 " TAB in general mode will move to text buffer
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
@@ -38,9 +34,8 @@ nnoremap <C-c> <Esc>
 " <TAB>: completion.
 inoremap <expr><TAB> pumvisible() ? "\<C-n>" : "\<TAB>"
 
-" Better tabbing
-vnoremap < <gv
-vnoremap > >gv
+" Revert Git
+nnoremap <C-y> :CocCommand git.chunkUndo<CR>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
