@@ -31,6 +31,8 @@ au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm al
 " gruvbox theme
 autocmd vimenter * colorscheme gruvbox
 
+let g:airline_theme='dark'
+
 " NERDTree auto open when in directory
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
