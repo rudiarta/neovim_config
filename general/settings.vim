@@ -29,7 +29,7 @@ set clipboard=unnamedplus               " Copy paste between vim and everything 
 au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 
 " gruvbox theme
-autocmd vimenter * colorscheme industry
+autocmd vimenter * colorscheme gruvbox
 
 " NERDTree auto open when in directory
 autocmd StdinReadPre * let s:std_in=1
